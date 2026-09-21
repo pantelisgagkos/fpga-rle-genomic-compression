@@ -1,0 +1,8 @@
+# Vivado generated files
+vivado*.log
+vivado*.jou
+.Xil/
+
+# Recreated Vivado projects
+hardware/fasta/vivado/build/
+hardware/fastq/vivado/build/
