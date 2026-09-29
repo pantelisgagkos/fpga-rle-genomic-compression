@@ -232,6 +232,11 @@ There was no intermediate FASTQ AXI4-Lite implementation.
     |   |
     |   `-- host/
     |
+    |-- examples/
+    |   |-- sample.fa
+    |   |-- sample.fastq
+    |   `-- README.md
+    |
     |-- benchmarks/
     |   |-- scripts/
     |   `-- results/
@@ -435,6 +440,14 @@ The final custom RLE cores use a relatively small amount of programmable logic.
 | DSPs | 0 | 0 |
 
 Both final designs satisfied the timing constraints at 50 MHz.
+
+## Small Example Inputs
+
+Small FASTA and FASTQ inputs are available under:
+
+    examples/
+
+They are intended for quick functional tests and demonstrations of the selective RLE policy and are not benchmark datasets.
 
 ## Datasets
 
